@@ -1,3 +1,7 @@
+---
+icon: star
+---
+
 # Hall of Fame
 
 ## Multumim! :heart:
