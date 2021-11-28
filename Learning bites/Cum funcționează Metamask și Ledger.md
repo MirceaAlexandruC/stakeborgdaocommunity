@@ -2,13 +2,13 @@
 
 ## Cheia Publică și Cheia Privată
 
-Criptografia cu Chei Publice implică două chei: o cheie privată (Private Key) care poate fi folosită pentru criptarea, decriptarea și semnarea digitală a fișierelor și o cheie publică (Public Key) care poate fi folosită pentru verificarea semnăturilor digitale.
+Criptografia cu Chei Publice implică două chei: **o cheie privată** (Private Key) care poate fi folosită pentru criptarea, decriptarea și semnarea digitală a fișierelor și o **cheie publică** (Public Key) care poate fi folosită pentru verificarea semnăturilor digitale.
 
 De multe ori este folosită analogia de “Email și Parolă” sau “User și Parolă” când vine vorba de Cheie Privată și Cheie Publică pentru a înțelege mai ușor la ce sunt folosite, însa această analogie nu este întocmai corectă. Cheia Publică este o derivată a Cheii Private în majoritatea protocoalelor.
 
 Cand Blockchain-ul era “fresh out of the oven”, procesul era destul de simplu: Generai o Cheie Privată pe care trebuia, fie să o scrii cu pixul pe hârtie fie să o stochezi într-un loc la care doar tu ai acces.
 
-De exemplu, așa arăta o Cheie Privată pentru Bitcoin:
+De exemplu, așa arăta o Cheie Privată pentru **Bitcoin**:
 
 !!!
 Kx4FThaEpBuMYaBb2W2P9mfH2TpNVpPaEgjkD3uMPGkct7CQAYVq
@@ -16,10 +16,9 @@ Kx4FThaEpBuMYaBb2W2P9mfH2TpNVpPaEgjkD3uMPGkct7CQAYVq
 
 Șansele să scrii ceva greșit erau enorme și probabil astfel s-au pierdut sute de mii de Bitcoin în primii ani…dar a venit rapid o soluție!
 
-## BIP39
+## BIP39 / BIP44
 
-BIP39 este un algoritm capabil să facă corelarea între o listă de
-cuvinte (cunoscută și ca Seed Phrase) și o Cheie Privată. Astfel nu mai era nevoie să ții minte/să notezi toate literele și cifrele, ci erau suficiente doar cele 12/24 de cuvinte.
+**BIP39** este un algoritm capabil să facă corelarea între o **listă de cuvinte** (cunoscută și ca Seed Phrase) și o **Cheie Privată**. Astfel nu mai era nevoie să ții minte/să notezi toate literele și cifrele, ci erau suficiente doar cele 12/24 de cuvinte.
 
 Exemplu lista de cuvinte:
 
@@ -27,10 +26,7 @@ Exemplu lista de cuvinte:
 witch collapse practice feed shame open despair creek road again ice least
 !!!
 
-Din păcate, BIP39 nu a rezolvat problema în întregime ci doar a făcut
-ca acel Seed Phrase să fie human readable. Tot ai fi avut câte un Seed
-Phrase pentru fiecare cont, pentru fiecare protocol ș.a.m.d.
-Această problemă a fost rezolvată însă de BIP44.
+Din păcate, BIP39 nu a rezolvat problema în întregime ci doar a făcut ca acel Seed Phrase să fie human readable. Tot ai fi avut câte un Seed Phrase pentru fiecare cont, pentru fiecare protocol ș.a.m.d. Această problemă a fost rezolvată însă de **BIP44**.
 
 ```
 Flow BIP39: Listă de cuvinte BIP39 (mnemonic\*) -> Private Key
@@ -56,18 +52,13 @@ Astfel, folosind BIP39 și BIP44 e suficientă o listă de cuvinte (Seed Phrase)
 
 ## Cum funcționează Metamask
 
-Metamask este folosit pentru transfer de tokeni și apeluri de funcții în contractele inteligente (Smart Contracts). Pe scurt, interacțiunea cu blockchain-ul Ethereum.
+**Metamask** este folosit pentru transfer de tokeni și apeluri de funcții în contractele inteligente (Smart Contracts). Pe scurt, interacțiunea cu blockchain-ul Ethereum.
 
 În blockchain-ul Ethereum, atât transferurile cât și apelurile de Smart Contracts sunt tranzacții.
 
 O tranzacție trebuie privită ca o scrisoare super securizată, care are un expeditor, un destinatar, un mesaj și o semnătură. “Magia” în securitatea blockchain apare la semnătură.
 
 Acea semnătură trebuie privită ca o formulă _f(x,y)=a,b_ care are două caracteristici:
-
-- x este Cheia Privată
-- y este Mesajul
-- a este Mesajul Semnat
-- b este Cheia Publică
 
 !!!
 Este extrem de greu să afli Cheia Privată fiind date Cheia Publică și Mesajul semnat. Practic, să "spargi" Cheia Privată.
@@ -77,9 +68,14 @@ Este extrem de greu să afli Cheia Privată fiind date Cheia Publică și Mesaju
 Având un a și un b, este extrem de ușor să demonstrezi că a și b sunt o pereche ce este rezultată dintr-o pereche de x și y. Practic, să te uiți la un mesaj semnat, la expeditorul mesajului, și să confirmi că mesajul chiar vine de la el.
 !!!
 
+- x este Cheia Privată
+- y este Mesajul
+- a este Mesajul Semnat
+- b este Cheia Publică
+
 Revenind la scrisoare, o tranzacție este o scrisoare în care scrii expeditorul, destinatarul și mesajul, apoi iei o ștampilă specială și pui un sigiliu cu ceară.
 
-Acum destinatarul știe că tu ai scris mesajul, și el nu a fost alterat pe drum, pentru că este sigiliul tău PESTE scrisoare...dar cum știe că sigiliul este al tău?
+Acum destinatarul știe că tu ai scris mesajul, și el nu a fost alterat pe drum, pentru că este sigiliul tău **PESTE** scrisoare...dar cum știe că sigiliul este al tău?
 
 ## Cum funcționează Ledger
 
@@ -89,7 +85,7 @@ Până acum știm că:
 
 - Putem semna tranzacții folosind Cheile Private derivate de către BIP44 din seria respectivă de cuvinte.
 
-Ledger le integrează într-un hardware sigur.
+**Ledger** le integrează într-un hardware sigur.
 
 Ledger are 2 microcontrollere diferite. Unul pentru majoritatea funcțiilor la care te-ai gândi în mod normal (display, butoane, comunicare prin USB, comunicare prin Bluetooth, memorie ș.a.m.d.) și mai are un **Secure Element**.
 
