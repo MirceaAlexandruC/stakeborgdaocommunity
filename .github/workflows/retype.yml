@@ -14,7 +14,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: retypeapp/action-build@v1
+      - uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 5.0.x
+
+      - uses: retypeapp/action-build
 
       - uses: retypeapp/action-github-pages@v1
         with:
