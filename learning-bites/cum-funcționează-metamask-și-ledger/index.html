@@ -9,29 +9,29 @@
     <!-- Primary Meta Tags -->
     <title>Cum funcționează Metamask și Ledger</title>
     <meta name="title" content="Cum funcționează Metamask și Ledger">
-    <meta name="description" content="Criptografia cu Chei Publice implică două chei: o cheie privată (Private Key) care poate fi folosită pentru criptarea, decriptarea și semnarea..." />
+    <meta name="description" content="Criptografia cu Chei Publice implică două chei: o cheie privată(Private Key) care poate fi folosită pentru criptarea, decriptarea și semnarea..." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://andreivdev.github.io/stakeborgdaocommunity/learning-bites/cum-funcționează-metamask-și-ledger/">
     <meta property="og:title" content="Cum funcționează Metamask și Ledger">
-    <meta property="og:description" content="Criptografia cu Chei Publice implică două chei: o cheie privată (Private Key) care poate fi folosită pentru criptarea, decriptarea și semnarea...">
+    <meta property="og:description" content="Criptografia cu Chei Publice implică două chei: o cheie privată(Private Key) care poate fi folosită pentru criptarea, decriptarea și semnarea...">
     <meta property="og:image" content="https://andreivdev.github.io/stakeborgdaocommunity/stakeborgdaocommunity/learning-bites/seed_tree.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://andreivdev.github.io/stakeborgdaocommunity/learning-bites/cum-funcționează-metamask-și-ledger/">
     <meta property="twitter:title" content="Cum funcționează Metamask și Ledger">
-    <meta property="twitter:description" content="Criptografia cu Chei Publice implică două chei: o cheie privată (Private Key) care poate fi folosită pentru criptarea, decriptarea și semnarea...">
+    <meta property="twitter:description" content="Criptografia cu Chei Publice implică două chei: o cheie privată(Private Key) care poate fi folosită pentru criptarea, decriptarea și semnarea...">
     <meta property="twitter:image" content="https://andreivdev.github.io/stakeborgdaocommunity/stakeborgdaocommunity/learning-bites/seed_tree.png">
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/stakeborgdaocommunity/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="/stakeborgdaocommunity/resources/css/retype.css?v=1.11.691454581028" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/stakeborgdaocommunity/resources/css/retype.css?v=1.11.691454848041" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/stakeborgdaocommunity/resources/js/config.js?v=1.11.691454581028" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/stakeborgdaocommunity/resources/js/config.js?v=1.11.691454848041" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/stakeborgdaocommunity/resources/js/retype.js?v=1.11" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/stakeborgdaocommunity/resources/js/lunr.js?v=1.11.691454581028" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/stakeborgdaocommunity/resources/js/lunr.js?v=1.11.691454848041" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -178,10 +178,10 @@
         <span>Cheia Publică și Cheia Privată</span>
     </h2>
 </doc-anchor-target>
-<p>Criptografia cu Chei Publice implică două chei: o cheie privată (Private Key) care poate fi folosită pentru criptarea, decriptarea și semnarea digitală a fișierelor și o cheie publică (Public Key) care poate fi folosită pentru verificarea semnăturilor digitale.</p>
+<p>Criptografia cu Chei Publice implică două chei: <strong>o cheie privată</strong> (Private Key) care poate fi folosită pentru criptarea, decriptarea și semnarea digitală a fișierelor și o <strong>cheie publică</strong> (Public Key) care poate fi folosită pentru verificarea semnăturilor digitale.</p>
 <p>De multe ori este folosită analogia de “Email și Parolă” sau “User și Parolă” când vine vorba de Cheie Privată și Cheie Publică pentru a înțelege mai ușor la ce sunt folosite, însa această analogie nu este întocmai corectă. Cheia Publică este o derivată a Cheii Private în majoritatea protocoalelor.</p>
 <p>Cand Blockchain-ul era “fresh out of the oven”, procesul era destul de simplu: Generai o Cheie Privată pe care trebuia, fie să o scrii cu pixul pe hârtie fie să o stochezi într-un loc la care doar tu ai acces.</p>
-<p>De exemplu, așa arăta o Cheie Privată pentru Bitcoin:</p>
+<p>De exemplu, așa arăta o Cheie Privată pentru <strong>Bitcoin</strong>:</p>
 <div class="flex mb-6">
     <div class="flex-shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
@@ -200,14 +200,13 @@
     </div>
 </div>
 <p>Șansele să scrii ceva greșit erau enorme și probabil astfel s-au pierdut sute de mii de Bitcoin în primii ani…dar a venit rapid o soluție!</p>
-<doc-anchor-target id="bip39">
+<doc-anchor-target id="bip39--bip44">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#bip39">#</doc-anchor-trigger>
-        <span>BIP39</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bip39--bip44">#</doc-anchor-trigger>
+        <span>BIP39 / BIP44</span>
     </h2>
 </doc-anchor-target>
-<p>BIP39 este un algoritm capabil să facă corelarea între o listă de
-cuvinte (cunoscută și ca Seed Phrase) și o Cheie Privată. Astfel nu mai era nevoie să ții minte/să notezi toate literele și cifrele, ci erau suficiente doar cele 12/24 de cuvinte.</p>
+<p><strong>BIP39</strong> este un algoritm capabil să facă corelarea între o <strong>listă de cuvinte</strong> (cunoscută și ca Seed Phrase) și o <strong>Cheie Privată</strong>. Astfel nu mai era nevoie să ții minte/să notezi toate literele și cifrele, ci erau suficiente doar cele 12/24 de cuvinte.</p>
 <p>Exemplu lista de cuvinte:</p>
 <div class="flex mb-6">
     <div class="flex-shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
@@ -226,10 +225,7 @@ cuvinte (cunoscută și ca Seed Phrase) și o Cheie Privată. Astfel nu mai era 
         </div>
     </div>
 </div>
-<p>Din păcate, BIP39 nu a rezolvat problema în întregime ci doar a făcut
-ca acel Seed Phrase să fie human readable. Tot ai fi avut câte un Seed
-Phrase pentru fiecare cont, pentru fiecare protocol ș.a.m.d.
-Această problemă a fost rezolvată însă de BIP44.</p>
+<p>Din păcate, BIP39 nu a rezolvat problema în întregime ci doar a făcut ca acel Seed Phrase să fie human readable. Tot ai fi avut câte un Seed Phrase pentru fiecare cont, pentru fiecare protocol ș.a.m.d. Această problemă a fost rezolvată însă de <strong>BIP44</strong>.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">Flow BIP39: Listă de cuvinte BIP39 (mnemonic\*) -&gt; Private Key</code></pre>
 </doc-codeblock></div>
@@ -268,16 +264,10 @@ Această problemă a fost rezolvată însă de BIP44.</p>
         <span>Cum funcționează Metamask</span>
     </h2>
 </doc-anchor-target>
-<p>Metamask este folosit pentru transfer de tokeni și apeluri de funcții în contractele inteligente (Smart Contracts). Pe scurt, interacțiunea cu blockchain-ul Ethereum.</p>
+<p><strong>Metamask</strong> este folosit pentru transfer de tokeni și apeluri de funcții în contractele inteligente (Smart Contracts). Pe scurt, interacțiunea cu blockchain-ul Ethereum.</p>
 <p>În blockchain-ul Ethereum, atât transferurile cât și apelurile de Smart Contracts sunt tranzacții.</p>
 <p>O tranzacție trebuie privită ca o scrisoare super securizată, care are un expeditor, un destinatar, un mesaj și o semnătură. “Magia” în securitatea blockchain apare la semnătură.</p>
 <p>Acea semnătură trebuie privită ca o formulă <em>f(x,y)=a,b</em> care are două caracteristici:</p>
-<ul>
-<li>x este Cheia Privată</li>
-<li>y este Mesajul</li>
-<li>a este Mesajul Semnat</li>
-<li>b este Cheia Publică</li>
-</ul>
 <div class="flex mb-6">
     <div class="flex-shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
@@ -312,8 +302,14 @@ Această problemă a fost rezolvată însă de BIP44.</p>
         </div>
     </div>
 </div>
+<ul>
+<li>x este Cheia Privată</li>
+<li>y este Mesajul</li>
+<li>a este Mesajul Semnat</li>
+<li>b este Cheia Publică</li>
+</ul>
 <p>Revenind la scrisoare, o tranzacție este o scrisoare în care scrii expeditorul, destinatarul și mesajul, apoi iei o ștampilă specială și pui un sigiliu cu ceară.</p>
-<p>Acum destinatarul știe că tu ai scris mesajul, și el nu a fost alterat pe drum, pentru că este sigiliul tău PESTE scrisoare...dar cum știe că sigiliul este al tău?</p>
+<p>Acum destinatarul știe că tu ai scris mesajul, și el nu a fost alterat pe drum, pentru că este sigiliul tău <strong>PESTE</strong> scrisoare...dar cum știe că sigiliul este al tău?</p>
 <doc-anchor-target id="cum-funcționează-ledger">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#cum-funcționează-ledger">#</doc-anchor-trigger>
@@ -327,7 +323,7 @@ Această problemă a fost rezolvată însă de BIP44.</p>
 <li><p>Putem semna tranzacții folosind Cheile Private derivate de către BIP44 din seria respectivă de cuvinte.</p>
 </li>
 </ul>
-<p>Ledger le integrează într-un hardware sigur.</p>
+<p><strong>Ledger</strong> le integrează într-un hardware sigur.</p>
 <p>Ledger are 2 microcontrollere diferite. Unul pentru majoritatea funcțiilor la care te-ai gândi în mod normal (display, butoane, comunicare prin USB, comunicare prin Bluetooth, memorie ș.a.m.d.) și mai are un <strong>Secure Element</strong>.</p>
 <p>Acest Secure Element este un microcontroller construit special pentru a stoca Chei Private și a semna tranzacții. Practic, este ca un sertar cu două ușițe mici în care îți ții ceara și aparatul special pentru semnat. Bagi scrisoarea pe o ușiță, el semnează peste mesaj cu sigiliul tău special și scrisoarea iese pe cealaltă ușiță gata semnată.</p>
 <p>&quot;Aparatul&quot; cu care se face semnătură nu părăsește niciodată Ledger-ul. Ba mai mult, nu părăsește niciodată chip-ul Secure Element. Nici măcar celălalt chip nu știe cum s-a calculat semnătura. Despre PC sau Metamask nici vorbă.</p>
