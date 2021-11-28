@@ -28,9 +28,9 @@ witch collapse practice feed shame open despair creek road again ice least
 
 Din păcate, BIP39 nu a rezolvat problema în întregime ci doar a făcut ca acel Seed Phrase să fie human readable. Tot ai fi avut câte un Seed Phrase pentru fiecare cont, pentru fiecare protocol ș.a.m.d. Această problemă a fost rezolvată însă de **BIP44**.
 
-```
-Flow BIP39: Listă de cuvinte BIP39 (mnemonic\*) -> Private Key
-```
+!!!
+Listă de cuvinte BIP39 (mnemonic\*) -> Private Key
+!!!
 
 BIP44 reprezintă un algoritm care interpretează rezultatul lui BIP39 (acel Seed Phrase) ca un punct de plecare pentru derivarea unui arbore de conturi cu Chei Private specifice conturilor.
 
@@ -38,9 +38,9 @@ Imaginează-ți că ai o listă de cuvinte care va produce mereu semințe identi
 
 În loc să generezi o listă de cuvinte (Seed Phrase) care să reprezinte o Cheie Privată folosind BIP39, folosind BIP44 flow-ul arată cam așa:
 
-```
+!!!
 Listă de cuvinte BIP39 (mnemonic\*) -> Derivation Path -> Private Key.
-```
+!!!
 
 Astfel, folosind BIP39 și BIP44 e suficientă o listă de cuvinte (Seed Phrase) pentru TOATE conturile.
 
