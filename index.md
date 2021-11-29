@@ -4,7 +4,7 @@ Bine ai venit in comunitatea StakeborgDAO!
 
 Acesta este locul in care noi, comunitatea StakeborgDAO, dam inapoi "bucati" de educatie, povesti sau tutoriale si tot aici pastram sinteze ale celor mai interesante discutii.
 
-**5 minute stories** este locul in care poti sa ne povestesti experientele tale crypto, cum te-au influentat ele si ce ai invatat.
+**5 minute stories** este locul in care poti sa ne povestesti experientele tale crypto, cum te-au influentat ele si ce ai invatat dar si cine esti, cum ai ajuns in crypto si care sunt planurile tale de viitor.
 
 **Community Pulse** este o arhiva a celor mai interesante dezbateri ale comunitatii. Acolo vei putea gasi sinteze ale discutiilor.
 
