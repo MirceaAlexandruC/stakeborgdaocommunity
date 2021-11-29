@@ -1,3 +1,7 @@
+---
+authors: [andreiv, DubluDe]
+---
+
 # Cum funcționează Gas Fee
 
 **Gazul** (Gas) este o unitate utilizată pentru măsurarea **cantității de efort de calcul** (Computational Effort) necesar pentru a efectua acțiuni specifice pe Blockchain-ul Ethereum.
@@ -21,5 +25,3 @@ Prețul gazului este măsurat în **Gwei** – o unitate mai mică decât **Ethe
 De exemplu, să presupunem că vrem să trimitem o tranzacție simplă și prețul ETH este de **4,645.64 USD**. Cele mai multe dintre portofelele populare Ethereum, cum ar fi Metamask, estimează prețurile necesare la gaz și ne permit să alegem între viteza de confirmare a tranzacției: **rapidă, medie și mică**. Să presupunem că portofelul a estimat prețul gazului la **100 gwei** dacă dorim să avem șansa de a ne confirma tranzacția în următorul minut.
 
 Acum putem calcula rapid că trebuie să plătim **6.97 USD** pentru o astfel de tranzacție. Înmulțim costul gazului pentru trimiterea unei tranzacții – **15.000 Gaz** – și prețul gazului – **100 gwei**. Acesta este egal cu **1.500.000 gwei**, care este **0,0015 ETH**. La prețul ETH de **4,645.64 USD**, asta ne oferă **6.97 USD**.
-
-_autori: andreiv si DubluDe_

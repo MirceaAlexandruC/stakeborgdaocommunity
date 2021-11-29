@@ -1,3 +1,7 @@
+---
+authors: [andreiv, DubluDe]
+---
+
 # Cum funcționează Metamask și Ledger
 
 ## Cheia Publică și Cheia Privată
