@@ -157,5 +157,3 @@ Beneficii:
   doar să instalez aplicația în Ledger pentru fiecare coin. Să spunem că instalez Ethereum și conectez Metamask la hardware wallet.
 - În tot acest proces, Seed-ul nu a ajuns pe niciun device electronic în afară de Ledger (și nici nu o să ajungă vreodată).
 - Mi-am transferat toate fondurile din toate coinurile către noile conturi generate de Ledger.
-
-_autori: andreiv si DubluDe_
