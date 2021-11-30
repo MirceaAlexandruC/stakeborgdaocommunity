@@ -17,6 +17,9 @@ Flash loans au fost introduse in 2018 de catre Marble, o bancă open-source. În
 Precum orice lucru, inovația din cadrul flash loans aduce și dezavantaje. Contractele sunt susceptibile atacurilor precum cele de pe platformele Cream si Harvest Finance sau bZX care colectiv au pierdut peste $70 milioane de dolari. Cei care au atacat s-au folosit de diverse metode de a influența prețul stablecoin ului in care erau luate împrumuturile pentru a păcăli smart contractul că au plătit înapoi banii.
 
 Concluzionând, flash loans sunt:
+
 **Nesecurizate** - Creditorul nu trebuie să ofere un colateral pentru împrumut, ci îl plătește inapoi instant
+
 **Instante** - Luarea și înapoierea creditului are loc în aceeași tranzacție
+
 **Inovative**- Datorită utilizării smart contract-urilor pentru setarea termenilor și condițiilor și efectuarea tranzacției
