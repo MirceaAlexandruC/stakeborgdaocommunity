@@ -109,7 +109,7 @@ Indicand astfel ca exista o modificare intre fork-ul nostru si repository-ul ori
 
 ![github_18](github_18.png)
 
-Pull request-ul urmeaza sa fie aprobat iar pagina https://andreivdev.github.io/stakeborgdaocommunity/ va fi generata automat.
+Pull request-ul urmeaza sa fie aprobat iar pagina https://stakeborgcommunity.ddns.net/ va fi generata automat.
 
 ![github_19](github_19.png)
 
