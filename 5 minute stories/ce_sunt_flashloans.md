@@ -2,7 +2,7 @@
 authors: [Matei]
 ---
 
-# Ce sunt Flash loans
+# Ce sunt Flash Loans
 
 În lumea tradițională suntem obișnuiți cu întregul amalgam de documente, fișe care trebuie semnate și diverse aprobări necesare când vine vorba de luarea unui credit. De obicei, un colateral este pus la bataie de către debitor ca să dovedească că în cazul în care creditul său se transformă într-unul neperformant, creditorul (de obicei banca) nu pierde toată suma împrumutată. Cu toate că acest sistem există in prezent în lumea DeFi, un nou tip de credit a fost inventat care nu se supune acelorași reguli.
 
