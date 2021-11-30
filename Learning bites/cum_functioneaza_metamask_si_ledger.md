@@ -52,7 +52,7 @@ Astfel, folosind BIP39 și BIP44 e suficientă o listă de cuvinte (Seed Phrase)
 \*mnemonic = Seed Phrase
 !!!
 
-![seed_tree_picture](seed_tree.png)
+![](seed_tree.png)
 
 ## Cum funcționează Metamask
 

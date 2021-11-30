@@ -14,7 +14,7 @@ La aproximativ o luna si ceva, inceputul lui Noiembrie, un proiect in care aveam
 
 Niciodata nu am fost bun la vreun joc pe calculator, pana acum 1 an si jumatate nici macar un windows nu stiam sa instalez, iar in Noiembrie 2021 trebuia sa imi fac cont intr-o aplicatie cu un fel de realitate virtuala, despre care nu stiam nimic si pe nimeni.
 
-![Decentraland](decentraland_1.png)
+![](decentraland_1.png)
 
 O data intrat in aplicatie, am fost si pierdut. Serios, oamenii aia daca vor adoptie in masa, daca vor sa il aduca in metavers pe Dorel ca sa ii vanda ceva acolo, ar trebui sa faca un filmulet inainte, sa te ia de manuta si sa te ghideze pas cu pas, baby steps, altfel va ramane o alta industrie dedicata celor din gaming.
 
@@ -23,7 +23,7 @@ Macar acolo lucrurile pareau simple, dar nici acolo nu am putut sa servesc un pa
 
 In 2h ore, din care 30 min petrecute la bar pentru ca nu stiam sa ies de acolo desi era o usa glisanta care se deschidea cand te apropiai( fix ca in realitate), eram in scara unui bloc, la etajul 13, dintr-un ansamblu residential (NFT Towers sau ceva de genul acesta).
 
-![etaj-13-NFT-towers](etaj-13-decentraland.png)
+![](etaj-13-decentraland.png)
 
 Atunci, ca inginer in constructii, inevitabil iti vine intrebarea “dar daca?...daca poti sa iti aduci experienta in realitatea asta virtuala?” si 3 secunde mai tarziu am realizat ca nu mai vorbeam de un joc nenorocit, ci foloseam cuvinte precum **realitate virtuala**. Pe masura ce iti petreci timp acolo, cu tastatura si mouse-ul, deci nu cu o pereche de ochelari Oculus Quest 2, iti dai seama ca undeva, ceva, intr-un anumit context, chiar poate exista un **al doilea layer al vietii noastre**.
 O a doua realitate in care voi putea sa construiesc fara ca Dorel si cu Vasile sa imi plimbe lopata din stanga in dreapta, fara sa vedem 10 oameni adunati in jurul unuia care sapa, fara intarzierea furnizorilor de materiale, fara echipe de executie care azi au 10 oameni, maine 3 si peste alte doua zile te trezesti cu 5.
@@ -36,7 +36,7 @@ Nu sunt si sper nici sa nu fie pe viitor gorilele alea care cand te vad coborand
 
 Am fost suprins sa constat ca aveam muzica, ba mai mult, exact ca in realitate, unii se plangeau ba ca este prea tare sunetul, ba ca nu le convine genul muzical.
 
-![The party](petrecerea.png)
+![](petrecerea.png)
 
 Cand s-a anuntat colectarea Poap-ului( motivul principal al evenimentului, un fel de plasuta moka cu care pleci acasa), deci a unei insigne si care trebuia colectata prin apasarea unui buton dintr-un dispozitiv aflat pe roof top-ul cladirii, laptopul meu de gaming ceda.
 
@@ -50,7 +50,7 @@ Comunitatea, discutiile, plangerile unora legate de genul muzical, mi-au dat sen
 
 Dupa aproape ora, la iesirea din “club” am mai stat vreo 10 min cu muzica in fundal( da, precum in realitate, auzeai muzica pe fundal), am stat sa ma minunez de cerul instelat din Decentraland.
 
-![Decentraland night sky](Decentraland-night-sky.png)
+![](Decentraland-night-sky.png)
 
 Cred ca ceea ce vedem acum este de fapt a 3-a incercare, dupa aparatia tehnologiei care ne-a permis sa vedem filmele 3d/ ultra 4k/ imax si dupa ochelarii VR si toata industria de gaming pentru VR din 2014/ 2015 si pana acum.
 

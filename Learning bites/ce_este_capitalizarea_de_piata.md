@@ -13,19 +13,19 @@ Te-ai întrebat vreodată de ce o criptomonedă care costă 1$/buc este clasată
 Capitalizarea de piață reprezintă valoarea aboslută a unui asset(activ, bun, etc). In crypto, capitalizarea de piață a
 unui proiect se calculează înmulțind volumul total al tokenilor aflați in circulație cu prețul unui token.
 
-![capitalizarea_de_piata_1](capitalizarea_de_piata_1.png)
+![](capitalizarea_de_piata_1.png)
 
 Atunci cand intrăm într-un proiect este foarte important să analizăm economia monedei native blockchainului. Astfel, putem vedea cat din volumul total se află deja în circulație și implicit cat poate să se mai aprecieze în diferite scenarii.
 
 În cazul Bitcoin, capitalizarea de piață se calculează înmulțind cei 18,886,675 BTC aflați în circulație cu prețul unui Bitcoin, adică $58,081.94. De aici, rezultă acel $1,096,974,765,883, care reprezintă aproximativ 41.9% din capitalizarea totală a pieței crypto și care este folosit și în determinarea dominanței Bitcoinului față de alte cryptomonede.
 
-![capitalizarea_de_piata_2](capitalizarea_de_piata_2.png)
+![](capitalizarea_de_piata_2.png)
 
 Din cifrele pe care le-am pomenit, putem deduce faptul că Bitcoin este regele, iar dacă Bitcoin se duce în sus sau în jos va trage și piața după el pentru că ocupă un procent atat de mare din capitalizarea de piață totală din crypto. Desigur, există și excepții de la regulă, dar aici intrăm deja în zona de analiză tehnică și speculație, subiect care va fi abordat în articolele viitoare.
 
 Pentru aprofundarea subiectului, vom lua ca exemplu alt proiect popular și îl vom compara cu Bitcoin, pentru a înțelge mai bine de ce nu contează cate bucați ai în portofel și la ce riscuri ne expunem cand tokenomicsul este făcut să ne fure ochii.
 
-![capitalizarea_de_piata_3](capitalizarea_de_piata_3.png)
+![](capitalizarea_de_piata_3.png)
 
 Shiba Inu este unul dintre cele mai căutate trenduri pe google atunci cand ne raportăm la crypto. Este fără îndoială unul dintre proiectele cele mai cunoscute, avand în spate și o comunitate puternică.
 
