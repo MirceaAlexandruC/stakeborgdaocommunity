@@ -3,6 +3,7 @@ output: .retype
 url: https://stakeborgcommunity.ddns.net/
 branding:
   title: StakeborgDAO Community Corner
+  logo: static/StakeborgDAO Communicty Logo-02.png
 
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
