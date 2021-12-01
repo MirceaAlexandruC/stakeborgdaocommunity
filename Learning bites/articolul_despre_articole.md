@@ -69,7 +69,7 @@ In partea dreapta vedem ca Github Desktop stie ca avem deja un repository in con
 
 ![](github_8.png)
 
-Acum avem local toate fisierele din repository in destinatea aleasa anterior
+Acum avem local toate fisierele din repository in destinatia aleasa anterior
 
 ![](github_9.png)
 
